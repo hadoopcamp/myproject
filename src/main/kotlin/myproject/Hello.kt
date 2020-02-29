@@ -19,6 +19,14 @@ fun main() {
 
     val item = "piano"
     Person().play(item)
+
+    var game : String
+    game = "3"
+
+    var name : Int
+    name = 4
+    println(game + name)
+
 }
 
 class Person {

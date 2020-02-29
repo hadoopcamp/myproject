@@ -11,5 +11,14 @@ public class Hello {
 
         myproject.Person person2 = new myproject.Person();
         person2.hello();
+
+        int i = 3;
+        Integer I = 3;
+        I.compareTo(i);
+        I.equals(i);
+        System.out.print(I.equals(i));
+        Integer compare = I.compareTo(i);
+        compare.toString();
+        System.out.println(compare);
     }
 }
